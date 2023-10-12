@@ -6,7 +6,7 @@ Original Coast Clothing (OC) is a fictional clothing brand created to showcase k
 
 ![Messenger Experience](public/experience.png)
 
-See the [Developer Documentations on this experience](https://developers.facebook.com/docs/messenger-platform/getting-started/sample-apps/original-coast-clothing).
+See the [Developer Documentations on this experience](https://developers.facebook.com/docs/messenger-platform/getting-started/sample-apps/doug-bowmer-auto-sales).
 
 # Setting up your Messenger App
 
@@ -41,8 +41,8 @@ Before you begin, make sure you have completed all of the requirements listed ab
 Clone this repository on your local machine:
 
 ```bash
-$ git clone git@github.com:fbsamples/original-coast-clothing.git
-$ cd original-coast-clothing
+$ git clone git@github.com:fbsamples/doug-bowmer-auto-sales.git
+$ cd doug-bowmer-auto-sales
 ```
 
 You will need:
