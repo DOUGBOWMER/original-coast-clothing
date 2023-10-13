@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /**
  * Copyright 2021-present, Facebook, Inc. All rights reserved.
  *
@@ -11,7 +12,7 @@
 "use strict";
 
 // Use dotenv to read .env vars into Node
-require("dotenv").config();
+
 
 // Required environment variables
 const ENV_VARS = [
@@ -21,13 +22,14 @@ const ENV_VARS = [
   "APP_SECRET",
   "VERIFY_TOKEN",
   "APP_URL",
-  "SHOP_URL"
+  "SHOP_URL",
+  "PORT"
 ];
 
 module.exports = {
   // Messenger Platform API
   apiDomain: "https://graph.facebook.com",
-  apiVersion: "v11.0",
+  apiVersion: "v18.0",
 
   // Page and Application information
   pageId: process.env.PAGE_ID,
@@ -45,8 +47,8 @@ module.exports = {
   // Persona IDs
   personas: {},
 
-  // Preferred port (default to 3000)
-  port: process.env.PORT || 3000,
+
+
 
   // Base URL for Messenger Platform API calls
   get apiUrl() {
@@ -82,39 +84,6 @@ module.exports = {
   pushPersona(persona) {
     this.personas[persona.name] = persona.id;
   },
-
-  get personaSales() {
-    let id = this.personas["Jorge"] || process.env.PERSONA_SALES;
-    return {
-      name: "Jorge",
-      id: id
-    };
-  },
-
-  get personaBilling() {
-    let id = this.personas["Laura"] || process.env.PERSONA_BILLING;
-    return {
-      name: "Laura",
-      id: id
-    };
-  },
-
-  get personaOrder() {
-    let id = this.personas["Riandy"] || process.env.PERSONA_ORDER;
-    return {
-      name: "Riandy",
-      id: id
-    };
-  },
-
-  get personaCare() {
-    let id = this.personas["Daniel"] || process.env.PERSONA_CARE;
-    return {
-      name: "Daniel",
-      id: id
-    };
-  },
-
   get whitelistedDomains() {
     return [this.appUrl, this.shopUrl];
   },

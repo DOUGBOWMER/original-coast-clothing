@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /**
  * Copyright 2021-present, Facebook, Inc. All rights reserved.
  *
@@ -11,9 +12,9 @@
 "use strict";
 
 // Imports dependencies
-const config = require("./config"),
-  fetch = require("node-fetch"),
-  { URL, URLSearchParams } = require("url");
+const config = require("./config");
+const fetch = require("node-fetch");
+const { URL, URLSearchParams } = require("url");
 
 module.exports = class GraphApi {
   static async callSendApi(requestBody) {

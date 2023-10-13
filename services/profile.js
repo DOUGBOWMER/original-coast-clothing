@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /**
  * Copyright 2021-present, Facebook, Inc. All rights reserved.
  *

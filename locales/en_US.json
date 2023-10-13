@@ -8,7 +8,7 @@
     "suggestion": "Outfit suggestions",
     "shop": "Shop now",
     "start_over": "Start over",
-    "product_launch":"Launch updates"
+    "product_launch": "Launch updates"
   },
   "get_started": {
     "welcome": "Hi {{userFirstName}}! Welcome to Original Coast Clothing where you'll find styles for every occasion.",
@@ -27,7 +27,7 @@
     "lead_intro": "Hi {{userFirstName}}. Original Coast Clothing can supply your store which fresh a original clothing styles",
     "lead_question": "Are you interested in becoming an Original Coast Clothing Authorized Reseller?",
     "lead_qualified": "Thanks for expresing your interest in our brand. We will follow up shortly with more info",
-    "lead_disqualified": "No problem, you can always buy clothing via our website https://www.originalcoastclothing.com/"
+    "lead_disqualified": "No problem, you can always buy clothing via our website https://www.dougbowmerautosales.com/"
   },
   "curation": {
     "prompt": "Are you looking for an outfit for yourself or someone else?",
@@ -43,7 +43,7 @@
     "title": "Summer collection 2022",
     "subtitle": "Featured outfit",
     "show": "Another look",
-    "productLaunchTitle":"New Product Launches"
+    "productLaunchTitle": "New Product Launches"
   },
   "order": {
     "prompt": "We'll be happy to help you. Select from the following",

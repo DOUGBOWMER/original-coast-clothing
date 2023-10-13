@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /**
  * Copyright 2022-present, Facebook, Inc. All rights reserved.
  *
@@ -11,10 +12,10 @@
 "use strict";
 
 // Imports dependencies
-const Response = require("./response"),
-  GraphApi = require("./graph-api"),
-  config = require("./config"),
-  i18n = require("../i18n.config");
+const Response = require("./response");
+ const GraphApi = require("./graph-api");
+  const config = require("./config");
+  const i18n = require("../i18n.config");
 
 module.exports = class Lead {
   constructor(user, webhookEvent) {
